@@ -10,16 +10,16 @@
 
 ## 📁 Structure
 
-| # | Folder | Topic | Level |
-|---|--------|-------|-------|
-| 1 | `01-first-container` | Install Docker & run your first container | ⭐ Beginner |
-| 2 | `02-custom-dockerfile` | Write a Dockerfile & build a custom image | ⭐ Beginner |
-| 3 | `03-persistent-volumes` | Persist data with Docker volumes | ⭐⭐ Beginner-Intermediate |
-| 4 | `04-container-networking` | Container networking & DNS resolution | ⭐⭐ Intermediate |
-| 5 | `05-docker-compose` | Multi-container app with Docker Compose | ⭐⭐ Intermediate |
-| 6 | `06-dockerhub-registry` | Push & pull images on Docker Hub | ⭐⭐ Intermediate |
-| 7 | `07-multistage-builds` | Optimize images with multi-stage builds | ⭐⭐⭐ Advanced |
-| 8 | `08-cicd-github-actions` | Automate builds with GitHub Actions | ⭐⭐⭐ Advanced |
+| # | Folder | Topic |
+|---|--------|-------|
+| 1 | `01-first-container` | Install Docker & run your first container | 
+| 2 | `02-custom-dockerfile` | Write a Dockerfile & build a custom image | 
+| 3 | `03-persistent-volumes` | Persist data with Docker volumes | 
+| 4 | `04-container-networking` | Container networking & DNS resolution | 
+| 5 | `05-docker-compose` | Multi-container app with Docker Compose |
+| 6 | `06-dockerhub-registry` | Push & pull images on Docker Hub | 
+| 7 | `07-multistage-builds` | Optimize images with multi-stage builds | 
+| 8 | `08-cicd-github-actions` | Automate builds with GitHub Actions |
 
 ---
 
