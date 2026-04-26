@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Docker Compose App</title></head>
+<body>
+  <h1> Docker Compose Full Stack App</h1>
+  <p>Frontend is running!</p>
+  <script>
+    fetch('http://localhost:4000')
+      .then(r => r.json())
+      .then(data => {
+        document.body.innerHTML += `<p>${data.message}</p>`;
+        document.body.innerHTML += `<p>DB Time: ${data.time}</p>`;
+      });
+  </script>
+</body>
+</html>
