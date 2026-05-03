@@ -1,4 +1,4 @@
-# 🐳 Docker Lab
+# Docker Lab
 
 > Hands-on Docker practice from beginner to advanced — covering containers, volumes, networking, Compose, registries, multi-stage builds, and CI/CD.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📁 Structure
+## Structure
 
 | # | Folder | Topic |
 |---|--------|-------|
@@ -22,22 +22,26 @@
 | 8 | `08-cicd-github-actions` | Automate builds with GitHub Actions |
 
 ---
-
-## ✅ Progress
-
-- [ ] 01 — First Container
-- [ ] 02 — Custom Dockerfile
-- [ ] 03 — Persistent Volumes
-- [ ] 04 — Container Networking
-- [ ] 05 — Docker Compose
-- [ ] 06 — DockerHub Registry
-- [ ] 07 — Multi-stage Builds
-- [ ] 08 — CI/CD GitHub Actions
-
----
-## 🛠️ Prerequisites
+## Prerequisites
 
 - Windows 10/11 with Docker Desktop installed **or** Ubuntu 20.04+
 - Git & GitHub account
 - Docker Hub account
 - Basic terminal knowledge
+
+## Author
+
+**Prachi Satbhai**
+- GitHub: [@prachi-satbhai0741](https://github.com/prachi-satbhai0741)
+- Docker Hub: [prachisatbhai](https://hub.docker.com/u/prachisatbhai)
+
+---
+
+## Contributing
+
+This repo is open for contributions! Feel free to:
+- Fork the repo
+- Add improvements or fixes
+- Open a pull request
+
+Everyone is welcome to learn and contribute! 
