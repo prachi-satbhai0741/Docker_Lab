@@ -1,17 +1,17 @@
 # 05 — Docker Compose
 
-## 🎯 What I Learned
+## What I Learned
 - Docker Compose manages multi-container apps with a single file
 - Services communicate using service names as hostnames — Docker DNS handles it
 - depends_on with healthcheck ensures correct startup order
 - One command to start everything — one command to stop everything
 
-## 🛠️ Files Created
+## Files Created
 - `docker-compose.yml` — defines all 3 services
 - `backend/` — Node.js Express API connected to PostgreSQL
 - `frontend/` — nginx serving static HTML
 
-## 🛠️ Commands Used
+## Commands Used
 
 ### Start All Services
 ```bash
@@ -33,7 +33,7 @@ docker compose logs -f backend
 docker compose down
 ```
 
-## 📸 Output Screenshots
+## Output Screenshots
 
 ### Docker Compose Up
 ![compose up](images/docker-compose-up.png)
@@ -47,12 +47,12 @@ docker compose down
 ### Backend - localhost:4000
 ![backend](images/localhost-4000.png)
 
-## ✅ Verification
-- All 3 services running ✅
-- Frontend loads at localhost:3000 ✅
-- Backend responds at localhost:4000 ✅
+## Verification
+- All 3 services running 
+- Frontend loads at localhost:3000 
+- Backend responds at localhost:4000 
 
-## 💡 Key Concepts
+## Key Concepts
 | Term | My Understanding |
 |------|-----------------|
 | docker-compose.yml | Single file defining entire app stack |
