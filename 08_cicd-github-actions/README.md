@@ -31,14 +31,6 @@ git push origin main
 ### Check Pipeline
 Go to GitHub repo → Actions tab → watch it run live
 
-## Output Screenshots
-
-### Actions Success
-![actions success](images/actions-success.png)
-
-### DockerHub New Tag
-![dockerhub tag](images/dockerhub-tag.png)
-
 ## Verification
 - GitHub Actions tab shows green checkmarks
 - Docker Hub shows new image tag after push
