@@ -17,11 +17,7 @@
 
 ---
 
-<<<<<<< HEAD
-## Structure
-=======
 ## About
->>>>>>> 7164866 (docs: add professional README, LICENSE, CONTRIBUTING and gitignore)
 
 This repo is a complete practical Docker guide — built by following real hands-on practice, not just theory. Each module has working code, step-by-step commands, output screenshots, and a README explaining the why behind every concept.
 
@@ -33,9 +29,6 @@ This repo is a complete practical Docker guide — built by following real hands
 Fork this repo, follow each module, and build real Docker skills.
 
 ---
-<<<<<<< HEAD
-## Prerequisites
-=======
 
 ## Structure
 
@@ -51,7 +44,6 @@ Fork this repo, follow each module, and build real Docker skills.
 | 8 | [`08-cicd-github-actions`](./08_cicd-github-actions) | Automate builds with GitHub Actions | Advanced |
 
 ---
->>>>>>> 7164866 (docs: add professional README, LICENSE, CONTRIBUTING and gitignore)
 
 ## How to Use This Repo
 
@@ -67,13 +59,6 @@ cd Docker_Lab
 - Docker Hub account
 - Basic terminal knowledge
 
-<<<<<<< HEAD
-## Author
-
-**Prachi Satbhai**
-- GitHub: [@prachi-satbhai0741](https://github.com/prachi-satbhai0741)
-- Docker Hub: [prachisatbhai](https://hub.docker.com/u/prachisatbhai)
-=======
 ### Follow Along
 Each folder has its own README.md with:
 - What you will learn
@@ -109,20 +94,11 @@ Each folder has its own README.md with:
 - Pushing and pulling from Docker Hub
 - Multi-stage builds — 850MB to 10MB
 - Automated CI/CD with GitHub Actions
->>>>>>> 7164866 (docs: add professional README, LICENSE, CONTRIBUTING and gitignore)
 
 ---
 
 ## Contributing
 
-<<<<<<< HEAD
-This repo is open for contributions! Feel free to:
-- Fork the repo
-- Add improvements or fixes
-- Open a pull request
-
-Everyone is welcome to learn and contribute! 
-=======
 Contributions are welcome! Here's how:
 
 1. Fork the repo
@@ -147,4 +123,3 @@ Contributions are welcome! Here's how:
 This project is licensed under the MIT License — see [LICENSE](./LICENSE) for details.
 
 If this repo helped you, consider giving it a star — it helps others find it too!
->>>>>>> 7164866 (docs: add professional README, LICENSE, CONTRIBUTING and gitignore)
