@@ -1,17 +1,17 @@
 # 02 — Custom Dockerfile
 
-## 🎯 What I Learned
+## What I Learned
 - A Dockerfile is a script of instructions that Docker executes to build an image
 - Each instruction in a Dockerfile creates a new read-only layer
 - Copying package.json before source code is a layer caching optimization — rebuilds are faster
 - Alpine base images are tiny (~50MB) compared to full Node.js images
 
-## 🛠️ Files Created
+## Files Created
 - `app.js` — simple Express server responding on port 3000
 - `package.json` — declares express as a dependency
 - `Dockerfile` — instructions to build the image
 
-## 🛠️ Commands Used
+## Commands Used
 
 ### Build the Image
 ```bash
@@ -35,7 +35,7 @@ Shows "Server running on port 3000"
 docker ps
 ```
 
-## 📸 Output Screenshots
+## Output Screenshots
 
 ### Browser Output
 ![localhost 3000](images/localhost-3000.png)
@@ -43,12 +43,12 @@ docker ps
 ### Docker Build Output
 ![docker build](images/docker-build.png)
 
-## ✅ Verification
-- `docker images` shows `my-node-app` with tag `v1` ✅
-- `docker logs node-app` shows `Server running on port 3000` ✅
-- `http://localhost:3000` returns `Hello from Docker!` ✅
+## Verification
+- `docker images` shows `my-node-app` with tag `v1` 
+- `docker logs node-app` shows `Server running on port 3000` 
+- `http://localhost:3000` returns `Hello from Docker!` 
 
-## 💡 Key Concepts
+## Key Concepts
 | Instruction | My Understanding |
 |-------------|-----------------|
 | FROM | Sets the base image to build from |
