@@ -10,7 +10,7 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-![Progress](https://img.shields.io/badge/Progress-6%2F8-blue)
+![Progress](https://img.shields.io/badge/Progress-8%2F8-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Forks](https://img.shields.io/github/forks/prachi-satbhai0741/Docker_Lab?style=social)
 ![Stars](https://img.shields.io/github/stars/prachi-satbhai0741/Docker_Lab?style=social)
@@ -34,14 +34,14 @@ Fork this repo, follow each module, and build real Docker skills.
 
 | # | Folder | Topic | Level |
 |---|--------|-------|-------|
-| 1 | [`01-first-container`](./01_first-container) | Install Docker & run your first container | Beginner |
-| 2 | [`02-custom-dockerfile`](./02_custom-dockerfile) | Write a Dockerfile & build a custom image | Beginner |
-| 3 | [`03-persistent-volumes`](./03_persisent-volumes%20) | Persist data with Docker volumes | Beginner-Intermediate |
-| 4 | [`04-container-networking`](./04_container-networking) | Container networking & DNS resolution | Intermediate |
-| 5 | [`05-docker-compose`](./05_docker-compose) | Multi-container app with Docker Compose | Intermediate |
-| 6 | [`06-dockerhub-registry`](./06_dockerhub-registry) | Push & pull images on Docker Hub | Intermediate |
-| 7 | [`07-multistage-builds`](./07_multistage-builds) | Optimize images with multi-stage builds | Advanced |
-| 8 | [`08-cicd-github-actions`](./08_cicd-github-actions) | Automate builds with GitHub Actions | Advanced |
+| 1 | [`01_first-container`](./01_first-container) | Install Docker & run your first container | Beginner | 
+| 2 | [`02_custom-dockerfile`](./02_custom-dockerfile) | Write a Dockerfile & build a custom image | Beginner | 
+| 3 | [`03_persistent-volumes`](./03_persistent-volumes) | Persist data with Docker volumes | Beginner-Intermediate | 
+| 4 | [`04_container-networking`](./04_container-networking) | Container networking & DNS resolution | Intermediate | 
+| 5 | [`05_docker-compose`](./05_docker-compose) | Multi-container app with Docker Compose | Intermediate | 
+| 6 | [`06_dockerhub-registry`](./06_dockerhub-registry) | Push & pull images on Docker Hub | Intermediate | 
+| 7 | [`07_multistage-builds`](./07_multistage-builds) | Optimize images with multi-stage builds | Advanced | 
+| 8 | [`08_cicd-github-actions`](./08_cicd-github-actions) | Automate builds with GitHub Actions | Advanced | 
 
 ---
 
@@ -114,7 +114,7 @@ Contributions are welcome! Here's how:
 
 **Prachi Satbhai**
 - GitHub: [@prachi-satbhai0741](https://github.com/prachi-satbhai0741)
-- Docker Hub: [prachisatbhai0741](https://hub.docker.com/u/prachisatbhai)
+- Docker Hub: [prachisatbhai0741](https://hub.docker.com/u/prachisatbhai0741)
 
 ---
 
