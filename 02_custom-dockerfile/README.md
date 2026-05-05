@@ -19,10 +19,13 @@ docker build -t my-node-app:v1 .
 ```
 Docker executes each Dockerfile instruction top to bottom — each line is a new layer
 
+![docker build](images/docker-build.png)
+
 ### Run the Container
 ```bash
 docker run -d -p 3000:3000 --name node-app my-node-app:v1
 ```
+![localhost 3000](images/localhost-3000.png)
 
 ### Check Logs
 ```bash
@@ -35,18 +38,10 @@ Shows "Server running on port 3000"
 docker ps
 ```
 
-## Output Screenshots
-
-### Browser Output
-![localhost 3000](images/localhost-3000.png)
-
-### Docker Build Output
-![docker build](images/docker-build.png)
-
 ## Verification
-- `docker images` shows `my-node-app` with tag `v1` 
-- `docker logs node-app` shows `Server running on port 3000` 
-- `http://localhost:3000` returns `Hello from Docker!` 
+- `docker images` shows `my-node-app` with tag `v1`
+- `docker logs node-app` shows `Server running on port 3000`
+- `http://localhost:3000` returns `Hello from Docker!`
 
 ## Key Concepts
 | Instruction | My Understanding |
@@ -57,5 +52,3 @@ docker ps
 | RUN | Executes command during build |
 | EXPOSE | Documents which port container listens on |
 | CMD | Default command when container starts |
-
-
