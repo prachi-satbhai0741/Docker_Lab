@@ -17,11 +17,13 @@
 ```bash
 docker compose up -d
 ```
+![compose up](images/docker-compose-up.png)
 
 ### Check Status
 ```bash
 docker compose ps
 ```
+![compose ps](images/docker-compose-ps.png)
 
 ### View Logs
 ```bash
@@ -35,12 +37,6 @@ docker compose down
 
 ## Output Screenshots
 
-### Docker Compose Up
-![compose up](images/docker-compose-up.png)
-
-### Docker Compose PS
-![compose ps](images/docker-compose-ps.png)
-
 ### Frontend - localhost:3000
 ![frontend](images/localhost-3000.png)
 
@@ -48,9 +44,9 @@ docker compose down
 ![backend](images/localhost-4000.png)
 
 ## Verification
-- All 3 services running 
-- Frontend loads at localhost:3000 
-- Backend responds at localhost:4000 
+- All 3 services running
+- Frontend loads at localhost:3000
+- Backend responds at localhost:4000
 
 ## Key Concepts
 | Term | My Understanding |
@@ -59,5 +55,3 @@ docker compose down
 | depends_on | Controls service startup order |
 | healthcheck | Checks if service is actually ready |
 | networks | All services share same network — talk by name |
-
-
