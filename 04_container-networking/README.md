@@ -22,28 +22,23 @@ docker run -d --name redis --network app-net redis:7-alpine
 ```bash
 docker run --rm --network app-net alpine ping -c 3 redis
 ```
+![ping redis](images/ping-redis.png)
 
 ### Redis CLI Test
 ```bash
 docker run --rm -it --network app-net redis:7-alpine redis-cli -h redis
 ```
+![redis cli](images/redis-cli.png)
 
 ### Inspect Network
 ```bash
 docker network inspect app-net
 ```
 
-## Output Screenshots
-### Ping Success
-![ping redis](images/ping-redis.png)
-
-### Redis CLI
-![redis cli](images/redis-cli.png)
-
 ## Verification
-- `ping redis` succeeded from another container 
-- `GET greeting` returned correct value 
-- `docker network inspect` showed redis in Containers section 
+- `ping redis` succeeded from another container
+- `GET greeting` returned correct value
+- `docker network inspect` showed redis in Containers section
 
 ## Key Concepts
 | Term | My Understanding |
@@ -52,5 +47,3 @@ docker network inspect app-net
 | DNS Resolution | Docker resolves container names to IPs automatically |
 | --network flag | Connects container to a specific network |
 | --rm flag | Auto-removes container when it exits |
-
-
