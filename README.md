@@ -114,7 +114,7 @@ Contributions are welcome! Here's how:
 
 **Prachi Satbhai**
 - GitHub: [@prachi-satbhai0741](https://github.com/prachi-satbhai0741)
-- Docker Hub: [prachisatbhai0741](https://hub.docker.com/u/prachisatbhai0741)
+- Docker Hub: [prachisatbhai](https://hub.docker.com/u/prachisatbhai)
 
 ---
 
